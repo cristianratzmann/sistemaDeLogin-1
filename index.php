@@ -71,13 +71,13 @@
                             <input type="submit"
                                    name="btnEntrar"
                                    id="btnEntrar"
-                                   value=":: Entrar ::"
+                                   value="--ENTRAR--"
                                    class="btn btn-primary btn-block">
                             
                         </div>
                         
                         <div class="form-group">
-                            <p> Novo usuário
+                            <p> Novo usuário?
                                 <a href="#" id="btnRegistrar">
                             Registrar-se aqui
                             </a>
@@ -85,14 +85,59 @@
                             </p>
                         </div>
                            
-
-
-
+                        
                     </form>
-
                 </div>
-
             </section>
+            
+            <br>
+            <!-- Formulário de Recuperação de Senha -->
+            
+            <section class="row">
+                <div class="col-lg-4 offset-lg-4 bg-light rounded"
+                     id="caixaSenha">
+                    <h2 class="text-center mt-2">
+                        Gerar nova senha
+                    </h2>
+                    <form action="#" method="post" role="form"
+                          class="p-2"
+                          id="formSenha">
+                        <div class="form-group">
+                            <small class="text-muted">
+                                Para gerar nova senha, digite seu e-mail para receber as instruções
+                            </small>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" name="emailGerarSenha"
+                                   class="form-control"
+                                   placeholder="E-mail" required="">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="submit" name="btnGerar" 
+                                   id="btnGerar"
+                                   value="--GERAR--"
+                                   class="btn btn-primary btn-block">
+                        </div>
+                        
+                        <div class="form-group float-right">
+                    <a href="#" id="btnVoltar">
+                        Voltar
+                    </a>
+                    
+                </div>
+                        
+                    </form>
+                </div>
+                
+                
+                
+            </section>
+            
+            
+            
         </main>
 
 
